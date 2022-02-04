@@ -44,7 +44,7 @@
                         <button class="btn btn-outline-info my-2 my-sm-0" style="width: 50px;" type="submit"><i class="fas fa-search"></i></button>
                         </div>
                         <div class="col-3">
-                            <a  class="text-center" href="<?php echo base_url('index.php/user/tambah') ?>"><i style=" width: 40px;; height: 40px; color:chartreuse" class="fas fser-plus"></i> </a>
+                            <a  class="text-center" href="<?php echo base_url('index.php/user/tambah') ?>"><i style=" width: 40px;; height: 40px; color:chartreuse" class="fas fa-user-plus"></i></a>
                         </div>
                     </div>
                 </form>

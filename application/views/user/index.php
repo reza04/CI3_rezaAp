@@ -44,7 +44,7 @@
                         <button class="btn btn-outline-info my-2 my-sm-0" style="width: 50px;" type="submit"><i class="fas fa-search"></i></button>
                         </div>
                         <div class="col-3">
-                            <a  class="text-center" href="<?php echo base_url('index.php/siswa/tambah') ?>"><i style=" width: 40px;; height: 40px; color:chartreuse" class="fas fa-user-plus"></i> </a>
+                            <a  class="text-center" href="<?php echo base_url('index.php/user/tambah') ?>"><i style=" width: 40px;; height: 40px; color:chartreuse" class="fas fser-plus"></i> </a>
                         </div>
                     </div>
                 </form>
@@ -80,9 +80,9 @@
                                     <td><?php echo $value['email'] ?></td>
                                     <td><?php echo $value['password'] ?></td>
                                     <td>
-                                        <a href="<?php echo base_url('index.php/siswa/edit/'.$value['id']) ?>"><i style="width: 50px; height: 25px;" class="fas fa-user-edit"></i></a>
+                                        <a href="<?php echo base_url('index.php/user/edit/'.$value['id']) ?>"><i style="width: 50px; height: 25px;" class="fas fa-user-edit"></i></a>
                                         |
-                                        <a style="color: #DC143C;" href="<?php echo base_url('index.php/siswa/delete/'.$value['id']) ?>"><i style="width: 50px; height: 25px;" class="fas fa-user-minus"></i></a>
+                                        <a style="color: #DC143C;" href="<?php echo base_url('index.php/user/delete/'.$value['id']) ?>"><i style="width: 50px; height: 25px;" class="fas fa-user-minus"></i></a>
                                     </td>
                                 </tr>
                             <?php endforeach?>
